@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #340974;
+    color: #ffe923;
+    font-family: 'Rubik', sans-serif;
+}
+
+.fixed-menu{
+    text-align: center;
+    position: fixed;
+    background-color: #4B51BD;
+    color: white;
+    width: 100vw;
+    padding: 10px;
+    border-bottom: 4px solid #560088;
+    font-size: 1.063em;
+    top:0;
+    z-index: 1;
+    height: 20px;
+}
+
+.capa{
+    margin-top: 40px;
+    width: 100%;
+    height: 55vh;
+    background:linear-gradient(rgba(31, 6, 70, 0.6),rgba(31,6,70,0.6)),url('../Imagens/capa_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    line-height: 55vh;
+    color: white;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: lighter;
+    border-bottom: 4px solid white;
+}
+
+.imagem-perfil{
+    float: left;
+    position: relative;
+    margin-left: 30px;
+    top: -23vh;
+    width: 20vw;
+
+}
+
+.imagem-perfil img{
+    /* height: 48vh; */
+    max-width: 100%;
+    min-width: 100%;
+    /* height: 100%; */
+    border: 6px double #ffe923;
+}
+
+h1{ 
+    font-weight: bold;
+    font-style: italic;
+    font-size: 2.5em;
+    margin-left: 20px;
+    margin-top: 5vh;
+    float: left;
+}
+
+nav{
+    text-align: right;
+    margin-right: 20px;
+    margin-top: 6vh;
+    float: right;
+}
+
+a{
+    color: #ffe923;
+    font-size: 18px;
+}
+
+a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.apresentacao{
+    text-align: center;
+    clear: both;
+    margin-left: 200px;
+    margin-right: 200px;
+    position: absolute;
+    margin-top: 220px;
+}
+
+.apresentacao h3{
+    font-weight: 300;
+    font-size: 30px;
+    text-decoration: underline;
+    color: white;
+}
+
+.apresentacao p{
+    font-size: 18px;
+}
+
+.lista{
+    clear:both;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 90vh;
+    margin-bottom: 60px;
+}
+
+.lista h3{
+    font-weight: 300;
+    font-size: 30px;
+    color: white;
+}
+
+li{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.riscada{
+    text-decoration: line-through;
+}
+
+.italico{
+    font-style: italic;
+    font-weight: 200;
+}
+
+.blue{
+    color: #09f0fc;
+    text-decoration: underline;
+}
+
+.enfase{
+    font-size: 40px;
+    font-weight: 400;
+    font-variant-caps: all-petite-caps;
+}
