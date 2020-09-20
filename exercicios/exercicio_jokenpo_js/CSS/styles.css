@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(91, 8, 168);
+    color: rgb(255, 196, 0);
+    text-align: center;
+    font-family: 'Josefin Slab', serif;
+}
+
+header{
+    margin-top: 5vh;
+}
+
+p{
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.titulo-jogo{
+    font-family: 'Righteous', cursive;
+    font-size: 3em;
+    margin-bottom: 8vh;
+}
+
+.area-pontuacao{
+    width: fit-content;
+    padding: 2vh 5vw;
+    margin: 3vh auto;
+    border: 5px dotted white;
+    color: white;
+    background-color: rgb(188, 120, 252);
+}
+
+.area-pontuacao h3{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.mostrador-pontuacao{
+    display: inline-block;
+    margin: 10px 5px;
+}
+
+.resultado-partida{
+    margin: 5vh 0;
+    font-family:'Righteous', cursive;
+}
+
+.area-imagens{
+    margin: 10px 0;
+}
+
+.area-imagens p{
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.imagem-computador,
+.imagem-jogador{
+    display: inline-block;
+    height: 50vh;
+    margin: 0 10px;
+    border: 5px double rgb(255, 196, 0);
+}
+
+.foto-computador,
+.foto-jogador{
+    height: 100%;
+}
+
+.secao-botoes{
+    margin: 3vh 0;
+}
+
+.botao-escolha{
+    height: 20vh;
+}
+
+.botao-escolha:hover{
+    transform: scale(1.2);
+}
